@@ -4,16 +4,23 @@ using UnityEngine;
 
 public class PortalTeleporter : MonoBehaviour {
 
-	public Transform player;
+	private Transform playerTransform;
 	public Transform reciever;
 
 	private bool playerIsOverlapping = false;
 
+	private void Start() {
+		string tagString = "Player";
+		playerTransform = GameObject.FindGameObjectWithTag(tagString).transform;
+		if (playerTransform == null) {
+			Debug.LogError("Could not find object with tag: " + tagString);
+		}
+	}
 	// Update is called once per frame
 	void Update () {
 		if (playerIsOverlapping)
 		{
-			Vector3 portalToPlayer = player.position - transform.position;
+			Vector3 portalToPlayer = playerTransform.position - transform.position;
 			float dotProduct = Vector3.Dot(transform.up, portalToPlayer);
 
 			// If this is true: The player has moved across the portal
@@ -22,10 +29,10 @@ public class PortalTeleporter : MonoBehaviour {
 				// Teleport him!
 				float rotationDiff = -Quaternion.Angle(transform.rotation, reciever.rotation);
 				rotationDiff += 180;
-				player.Rotate(Vector3.up, rotationDiff);
+				playerTransform.Rotate(Vector3.up, rotationDiff);
 
 				Vector3 positionOffset = Quaternion.Euler(0f, rotationDiff, 0f) * portalToPlayer;
-				player.position = reciever.position + positionOffset;
+				playerTransform.position = reciever.position + positionOffset;
 
 				playerIsOverlapping = false;
 			}
