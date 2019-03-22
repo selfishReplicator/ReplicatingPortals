@@ -7,7 +7,12 @@ public class PortalCamera : MonoBehaviour {
 	private Transform mainCamera;
 	public Transform portal;
 	public Transform otherPortal;
-
+	public PortalTeleporter otherPortalTeleporter;
+	public PortalTeleporter thisPortalTeleporter;
+	public float otherDotProduct;
+	public float thisDotProduct;
+	
+	
 	private void Start() {
 		string tagString = "MainCamera";
 		mainCamera = GameObject.FindGameObjectWithTag(tagString).transform;
@@ -17,6 +22,10 @@ public class PortalCamera : MonoBehaviour {
 	}
 
 	void Update () {
+
+		otherDotProduct = otherPortalTeleporter.dotProduct;
+		thisDotProduct = thisPortalTeleporter.dotProduct;
+		
 		Vector3 playerOffsetFromPortal = mainCamera.position - otherPortal.position;
 		transform.position = portal.position + playerOffsetFromPortal;
 

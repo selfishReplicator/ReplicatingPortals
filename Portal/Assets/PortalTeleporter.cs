@@ -16,12 +16,13 @@ public class PortalTeleporter : MonoBehaviour {
 			Debug.LogError("Could not find object with tag: " + tagString);
 		}
 	}
-	// Update is called once per frame
+
+	public float dotProduct;
 	void Update () {
 		if (playerIsOverlapping)
 		{
 			Vector3 portalToPlayer = playerTransform.position - transform.position;
-			float dotProduct = Vector3.Dot(transform.up, portalToPlayer);
+			dotProduct = Vector3.Dot(transform.up, portalToPlayer);
 
 			// If this is true: The player has moved across the portal
 			if (dotProduct < 0f)
