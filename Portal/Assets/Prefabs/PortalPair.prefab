@@ -192,9 +192,8 @@ GameObject:
   m_Component:
   - component: {fileID: 530746364018195758}
   - component: {fileID: 530746364018195756}
-  - component: {fileID: 530746364018195757}
   m_Layer: 0
-  m_Name: RenderPlane
+  m_Name: RenderPlane_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -222,43 +221,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 530746364018195759}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &530746364018195757
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 530746364018195759}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 32c27e8a04985124e86a10e6f7425cea, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!1 &530746364055300544
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,9 +481,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraA: {fileID: 530746365678878121}
   cameraB: {fileID: 530746365725967146}
-  cutoutShader: {fileID: 0}
+  cutoutShader: {fileID: 4800000, guid: 78307da8343ee5c4ebad3a9128466894, type: 3}
   cameraMatA: {fileID: 2100000, guid: 959c50d8d834c2042a284fd28d7227d6, type: 2}
   cameraMatB: {fileID: 2100000, guid: 32c27e8a04985124e86a10e6f7425cea, type: 2}
+  renderPlaneA: {fileID: 530746364018195759}
+  renderPlaneB: {fileID: 530746364704021682}
 --- !u!1 &530746364165813504
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,9 +1329,8 @@ GameObject:
   m_Component:
   - component: {fileID: 530746364704021681}
   - component: {fileID: 530746364704021695}
-  - component: {fileID: 530746364704021680}
   m_Layer: 0
-  m_Name: RenderPlane
+  m_Name: RenderPlane_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1395,43 +1358,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 530746364704021682}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &530746364704021680
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 530746364704021682}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 959c50d8d834c2042a284fd28d7227d6, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!1 &530746364732901793
 GameObject:
   m_ObjectHideFlags: 0
@@ -1802,7 +1728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reciever: {fileID: 530746365882180952}
-  dotProduct: 0
+  rotationDiff: 0
 --- !u!1 &530746365515046809
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,10 +2146,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 530746364149374430}
   otherPortal: {fileID: 530746365585868678}
-  otherPortalTeleporter: {fileID: 530746365438752799}
-  thisPortalTeleporter: {fileID: 530746365882180935}
-  otherDotProduct: 0
-  thisDotProduct: 0
 --- !u!1 &530746365725967151
 GameObject:
   m_ObjectHideFlags: 0
@@ -2335,10 +2257,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 530746365585868678}
   otherPortal: {fileID: 530746364149374430}
-  otherPortalTeleporter: {fileID: 530746365882180935}
-  thisPortalTeleporter: {fileID: 530746365438752799}
-  otherDotProduct: 0
-  thisDotProduct: 0
 --- !u!1 &530746365773102692
 GameObject:
   m_ObjectHideFlags: 0
@@ -2670,7 +2588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reciever: {fileID: 530746365438752784}
-  dotProduct: 0
+  rotationDiff: 0
 --- !u!1 &530746365924155147
 GameObject:
   m_ObjectHideFlags: 0
