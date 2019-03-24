@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7a992b2-4bd2-43b3-9084-bd884004645a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/PortalCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PortalCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PortalTeleporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PortalTeleporter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PortalTextureSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PortalTextureSetup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftFuselage.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftFuselage.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsPropeller.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsPropeller.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnityPackageManager/manifest.json" beforeDir="false" />
-    </list>
+    <list default="true" id="e7a992b2-4bd2-43b3-9084-bd884004645a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +10,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/PortalTextureSetup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="458">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding>
-                <element signature="e#0#78#0" expanded="true" />
+                <marker date="1553353761887" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553353761887" expanded="true" signature="128:1111" ph="{...}" />
+                <marker date="1553353761887" expanded="true" signature="372:1109" ph="{...}" />
+                <marker date="1553353761887" expanded="true" signature="516:572" ph="{...}" />
+                <marker date="1553353761887" expanded="true" signature="758:814" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -33,20 +29,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/PortalTeleporter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="320">
+              <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
               <folding>
-                <marker date="1552989453103" expanded="false" signature="6:78" ph="..." />
-                <marker date="1552989453103" expanded="true" signature="126:1402" ph="{...}" />
-                <marker date="1552989453103" expanded="true" signature="260:474" ph="{...}" />
-                <marker date="1552989453103" expanded="true" signature="399:471" ph="{...}" />
-                <marker date="1552989453103" expanded="true" signature="527:1174" ph="{...}" />
-                <marker date="1552989453103" expanded="true" signature="555:1171" ph="{...}" />
-                <marker date="1552989453103" expanded="true" signature="786:1167" ph="{...}" />
-                <marker date="1552989453103" expanded="true" signature="1213:1287" ph="{...}" />
-                <marker date="1552989453103" expanded="true" signature="1245:1284" ph="{...}" />
-                <marker date="1552989453103" expanded="true" signature="1325:1400" ph="{...}" />
-                <marker date="1552989453103" expanded="true" signature="1357:1397" ph="{...}" />
+                <marker date="1553351263429" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553351263429" expanded="true" signature="126:1626" ph="{...}" />
+                <marker date="1553351263429" expanded="true" signature="271:521" ph="{...}" />
+                <marker date="1553351263429" expanded="true" signature="428:515" ph="{...}" />
+                <marker date="1553351263429" expanded="true" signature="572:1352" ph="{...}" />
+                <marker date="1553351263429" expanded="true" signature="607:1346" ph="{...}" />
+                <marker date="1553351263429" expanded="true" signature="872:1336" ph="{...}" />
+                <marker date="1553351263429" expanded="true" signature="1394:1488" ph="{...}" />
+                <marker date="1553351263429" expanded="true" signature="1431:1482" ph="{...}" />
+                <marker date="1553351263429" expanded="true" signature="1529:1624" ph="{...}" />
+                <marker date="1553351263429" expanded="true" signature="1566:1618" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -70,17 +66,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/PortalCamera.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="220">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
-                <marker date="1552989467136" expanded="false" signature="6:78" ph="..." />
-                <marker date="1552989467136" expanded="true" signature="122:998" ph="{...}" />
-                <marker date="1552989467136" expanded="true" signature="236:444" ph="{...}" />
-                <marker date="1552989467136" expanded="true" signature="369:441" ph="{...}" />
-                <marker date="1552989467136" expanded="true" signature="462:996" ph="{...}" />
+                <marker date="1553353042965" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553353042965" expanded="true" signature="122:1256" ph="{...}" />
+                <marker date="1553353042965" expanded="true" signature="239:447" ph="{...}" />
+                <marker date="1553353042965" expanded="true" signature="372:444" ph="{...}" />
+                <marker date="1553353042965" expanded="true" signature="465:1254" ph="{...}" />
+                <marker date="1553353042965" expanded="true" signature="660:775" ph="/* rotate camera with the same angle as the portals have to each other, keeping everything ... */" />
               </folding>
             </state>
           </provider>
@@ -100,16 +97,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/PortalCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/PortalTeleporter.cs" />
         <option value="$PROJECT_DIR$/Assets/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" />
+        <option value="$PROJECT_DIR$/Assets/PortalTeleporter.cs" />
+        <option value="$PROJECT_DIR$/Assets/PortalCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/PortalTextureSetup.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1941" />
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="1942" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -118,6 +116,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -149,11 +151,7 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,11 +202,12 @@
       <workItem from="1552987512310" duration="58000" />
       <workItem from="1552988494730" duration="377000" />
       <workItem from="1552989392226" duration="971000" />
+      <workItem from="1553345737962" duration="8613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1527000" />
+    <option name="totallyTimeSpent" value="10140000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -220,13 +219,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25566602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2590604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -247,7 +248,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="right" id="Errors In Solution" order="4" visible="true" weight="0.32962227" />
+      <window_info active="true" anchor="right" id="Errors In Solution" order="4" visible="true" weight="0.030201342" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
@@ -268,35 +269,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/PortalTeleporter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <marker date="1552989453103" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552989453103" expanded="true" signature="126:1402" ph="{...}" />
-            <marker date="1552989453103" expanded="true" signature="260:474" ph="{...}" />
-            <marker date="1552989453103" expanded="true" signature="399:471" ph="{...}" />
-            <marker date="1552989453103" expanded="true" signature="527:1174" ph="{...}" />
-            <marker date="1552989453103" expanded="true" signature="555:1171" ph="{...}" />
-            <marker date="1552989453103" expanded="true" signature="786:1167" ph="{...}" />
-            <marker date="1552989453103" expanded="true" signature="1213:1287" ph="{...}" />
-            <marker date="1552989453103" expanded="true" signature="1245:1284" ph="{...}" />
-            <marker date="1552989453103" expanded="true" signature="1325:1400" ph="{...}" />
-            <marker date="1552989453103" expanded="true" signature="1357:1397" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PortalTextureSetup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -313,16 +285,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PortalTeleporter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+          <folding>
+            <marker date="1553351263429" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553351263429" expanded="true" signature="126:1626" ph="{...}" />
+            <marker date="1553351263429" expanded="true" signature="271:521" ph="{...}" />
+            <marker date="1553351263429" expanded="true" signature="428:515" ph="{...}" />
+            <marker date="1553351263429" expanded="true" signature="572:1352" ph="{...}" />
+            <marker date="1553351263429" expanded="true" signature="607:1346" ph="{...}" />
+            <marker date="1553351263429" expanded="true" signature="872:1336" ph="{...}" />
+            <marker date="1553351263429" expanded="true" signature="1394:1488" ph="{...}" />
+            <marker date="1553351263429" expanded="true" signature="1431:1482" ph="{...}" />
+            <marker date="1553351263429" expanded="true" signature="1529:1624" ph="{...}" />
+            <marker date="1553351263429" expanded="true" signature="1566:1618" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/PortalCamera.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="220">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
-            <marker date="1552989467136" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552989467136" expanded="true" signature="122:998" ph="{...}" />
-            <marker date="1552989467136" expanded="true" signature="236:444" ph="{...}" />
-            <marker date="1552989467136" expanded="true" signature="369:441" ph="{...}" />
-            <marker date="1552989467136" expanded="true" signature="462:996" ph="{...}" />
+            <marker date="1553353042965" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553353042965" expanded="true" signature="122:1256" ph="{...}" />
+            <marker date="1553353042965" expanded="true" signature="239:447" ph="{...}" />
+            <marker date="1553353042965" expanded="true" signature="372:444" ph="{...}" />
+            <marker date="1553353042965" expanded="true" signature="465:1254" ph="{...}" />
+            <marker date="1553353042965" expanded="true" signature="660:775" ph="/* rotate camera with the same angle as the portals have to each other, keeping everything ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PortalTextureSetup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <marker date="1553353761887" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553353761887" expanded="true" signature="128:1111" ph="{...}" />
+            <marker date="1553353761887" expanded="true" signature="372:1109" ph="{...}" />
+            <marker date="1553353761887" expanded="true" signature="516:572" ph="{...}" />
+            <marker date="1553353761887" expanded="true" signature="758:814" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -7,8 +7,8 @@ public class PortalTextureSetup : MonoBehaviour {
     public Camera cameraB;
     public Shader cutoutShader;
 
-    public Material cameraMatA;
-    public Material cameraMatB;
+    private Material cameraMatA;
+    private Material cameraMatB;
 
     public GameObject renderPlaneA;
     public GameObject renderPlaneB;
